@@ -60,6 +60,7 @@ header {
 
 #gallery {
     border: 3px solid #7A3428;
+    margin-bottom: 3rem;
 }
 
 #gallery img {
@@ -83,4 +84,30 @@ header {
     border: 3px solid #7A3428;
     border-style: dotted;
     font-size: 20pt;
+}
+
+/*Literature*/
+#lit {
+    border: 3px solid #7A3428;
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+
+#lit div {
+    padding: 3rem;
+    font-size: 20pt;
+    margin: 0 auto;
+}
+
+#lit div p:first-child:first-letter {
+    color: #7A3428;
+    float:left;
+    font-size: 2em;
+    padding:.5em;
+    line-height: .25;
+    margin-right: .25;
+}
+
+#lit div p {
+    clear:both;
 }
