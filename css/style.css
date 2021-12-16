@@ -137,6 +137,12 @@ header {
         max-width:100%;
         columns: 40rem;
     }
+
+    #video {
+    
+        align-items: center;
+        border: 3px solid #7A3428;
+    }
 }
 
 /* large screen size */
@@ -159,4 +165,11 @@ header {
     figure {
         display: block;
     }
+
+    #video {
+    
+        align-items: center;
+        border: 3px solid #7A3428;
+    }
 }
+
