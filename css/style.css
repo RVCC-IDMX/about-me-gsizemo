@@ -80,19 +80,16 @@ header {
     border: 3px solid #7A3428;
     border-style: dotted;
     font-size: 20pt;
-    padding: 50px;
 }
 #Grayson {
     border: 3px solid #7A3428;
     border-style: dotted;
     font-size: 20pt;
-    padding: 50px;
 }
 #Kitty {
     border: 3px solid #7A3428;
     border-style: dotted;
     font-size: 20pt;
-    padding: 50px;
 }
 
 /*Literature*/
@@ -120,11 +117,11 @@ header {
 #lit div p {
     clear:both;
 }
-
+/* tablet size*/
 @media screen and (min-width:60em) {
     figure {
         display: grid;
-        grid-template-columns: .5fr .5fr;
+        grid-template-columns: 2fr 1fr;
     }
     figcaption {
         display: flex;
@@ -132,5 +129,34 @@ header {
         align-items: center;
         font-size: 2rem;
         margin-right: 1rem;
+    }  figure img {
+        width:100%;
+    }
+
+    #lit div {
+        max-width:100%;
+        columns: 40rem;
+    }
+}
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display:none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
     }
 }
