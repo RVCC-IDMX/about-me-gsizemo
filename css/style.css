@@ -12,15 +12,25 @@ header {
     text-align: center;
 }
 
+
+/*Mid Section*/
+
 #mid {
     text-align: center;
     font-size: 20pt;
     color: #6AC79F;
 }
+
+/*Bio Section*/
+
 #bio {
     text-align: center;
     font-size: 20pt;
 }
+
+/*Hero Section*/
+
+
 #hero, footer {
     text-align: center;
     background-color:#C77769 ;
@@ -31,6 +41,9 @@ header {
 #hero img {
     width: 300px;
 }
+
+/*Hobbies Section*/
+
 #hobbies ul li {
     font-size: 20pt;
     color: #6AC79F;
@@ -41,4 +54,33 @@ header {
     padding: 10px;
     border: 3px solid #7A3428;
     border-style: dotted;
+}
+
+/*Gallery Section*/
+
+#gallery {
+    border: 3px solid #7A3428;
+}
+
+#gallery img {
+    max-width:100%;
+}
+
+#gallery figure {
+    text-align: center;
+}
+#horsey {
+    border: 3px solid #7A3428;
+    border-style: dotted;
+    font-size: 20pt;
+}
+#Grayson {
+    border: 3px solid #7A3428;
+    border-style: dotted;
+    font-size: 20pt;
+}
+#Kitty {
+    border: 3px solid #7A3428;
+    border-style: dotted;
+    font-size: 20pt;
 }
