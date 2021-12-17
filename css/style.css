@@ -177,4 +177,53 @@ header {
 
 #formelements {
     display: grid;
+    row-gap: .5em;
+
+}
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 3px solid #6AC79F;
+    font-size: 1.5rem;
+    border-style: dotted;
+    margin: 1em;
+    border-radius: 2rem;
+}
+
+legend {
+    background-color: #6AC79F;
+    color: #7A3428;
+    padding: .5em;
+    border-radius: 2rem;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: 1em;
+    border-radius: 2rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+    border-radius: 2rem;
+}
+
+#contact li {
+    margin: 1rem;
+}
+
+#contact button {
+    background-color: #6AC79F;
+    color: #7A3428;
+    border: 2px solid #7A3428;
+    font-size: 1rem;
+    font-weight: 800;
+    max-width: 300px;
+    width: 50%;
+    justify-self: center;
 }
