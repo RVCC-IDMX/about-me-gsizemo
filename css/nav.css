@@ -39,6 +39,21 @@ main {
 
 /* logo */
 
+ .logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 4vw;
+    width: 4vw;
+}
+
+.logo h1 {
+    font-size: 2.5em;
+}
+
 
 
 /* navigation list */
