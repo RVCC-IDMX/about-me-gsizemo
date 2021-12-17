@@ -173,3 +173,8 @@ header {
     }
 }
 
+/*Contact Form*/
+
+#formelements {
+    display: grid;
+}

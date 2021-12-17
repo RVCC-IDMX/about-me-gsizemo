@@ -126,6 +126,67 @@
     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
 </section>
+
+<section id="contact">
+
+    <h2>Contact Us:</h2>
+
+    <form id="contactform" name="contactform"  method="post" data-netlify="true">
+
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <div id="formelements">
+                <!-- Name -->
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Phone Number -->
+                <label for="phone">Phone Number (optional</label>
+                <input type="tel" id="phone" name="phone"
+
+                <!-- Phone type (optional)-->
+                <label for="phonetype"> Phone type (optional) </label>
+                <select id="phonetype" name="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                </select>
+
+                <!-- Message -->
+                <label for="message">Your Comment (optional)</label>
+                <textarea id="message" name="message" rows="8" placeholder="Type here <3 "></textarea>
+
+                <!-- Reply -->
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+
+                    <ul>
+                        <li>
+                            <input type="radio" id="message-yes" name="reply" value="Yes a reply please"> 
+                            <label for="message-yes">Yes a reply would be cool :)</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="message-no" name="reply" value="no reply please" checked> 
+                            <label for="message-no">nah fam.</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <!-- Submit -->
+                <button type="submit">Submit</button>
+           
+            </div>
+        
+        </fieldset>
+
+    </form>
+</section>
  </main>
 
  <footer>
