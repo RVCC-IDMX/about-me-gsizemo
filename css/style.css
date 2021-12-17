@@ -234,3 +234,26 @@ legend {
     border: 3px solid #7A3428;
     
 }
+
+#Colorscheme {
+    background-color:blanchedalmond;
+    border: 3px solid #7A3428;
+    margin-bottom: 3rem;
+    max-width: 15%;
+}
+
+#learning {
+    padding: 3rem;
+    font-size: 20pt;
+    margin: 0 auto;
+}
+
+#Designdoc {
+    border: 3px solid #7A3428;
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+
+#name {
+    font-size: 20pt;
+}
